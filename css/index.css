@@ -55,6 +55,35 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.navbar{
+    display: flex;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    padding-left: 2%;
+    width: 8%;
+    margin-top:auto
+    
+}
+.logo{
+    padding-left: 25%;
+    margin-top: 2%;
+    width: 35%;
+}
+.header{
+    display:block;
+    font-size: 100%;
+    font: inherit;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    
+    width: 49%;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -69,6 +98,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 3%;
 }
 
 .top-content {
@@ -95,6 +125,102 @@ p {
     margin-bottom: 0;
 }
 
+.box1{
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }.box3{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box4{
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+     margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.box5{
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+ .box6{
+     background-color:forestgreen;
+     width: 12.5%;
+     height: 100px;
+     margin: 20px 2.5%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .box7{
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ .box8{
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.box9{
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }.box10{
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+                            }
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +270,105 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.about-header{
+    display: flex;
+    width: 70%;
+    margin-left: 7%;
+    padding-left: 8%;
+}
+.navbar-about{
+    display: flex;
+    
+
+    
+    
+}
+nav span {
+    text-decoration: none;
+    color:black;
+    padding-left: 3%;
+    width: 9%;
+    margin-top:7%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo-about{
+    padding-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    width: 27%;
+}
+
+.containerabout-page{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center ;
+}
+.about-text{
+    font-size: 23px;
+    width: 35%;
+    margin: 1%;
+    
+    
+    
+}
+hr{
+border: 1px dashed;
+}
+h6{
+font-weight: bold;
+
+}
+
+    
+}
+img{
+  width: 98%;  
+  padding-bottom: 3%;
+
+}
+hr{
+    text-decoration-style: dotted;
+    
+}
+button{
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    padding: 2% 4% 2% 4%;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;}
+
+.about-text1{
+    width: 85%;
+    padding-left: 15%;
+    font-size: 23px;
+}
+p{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-right: 6%;
+    
+}
+
+
+.bottom{
+    width: 85%;
+    margin: 2%;
+    padding-left: 12%;
+    font-size: 22px;
+    
+}
+
+    
+}
+
+    
+
